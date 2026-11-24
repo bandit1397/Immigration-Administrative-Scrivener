@@ -1,0 +1,4 @@
+cases/*
+!cases/.gitkeep
+knowledge/원문/*.pdf
+.claude/settings.local.json
