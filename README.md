@@ -12,15 +12,16 @@ knowledge/
   F-4/요건_서류.md        요건·서류·기한 항목 (현재 전부 미검증 초안)
   원문/                   매뉴얼 PDF 원문 보관 (직접 추가)
 templates/                상담접수표, 업무보고서 양식
-.claude/commands/         /f4 (사건 처리), /verify (지식 검증)
+.claude/commands/         /consult (손님 상담), /f4 (사건 처리), /verify (지식 검증)
 tests/시나리오.md         에이전트 행동 점검 사례
 cases/                    실제 사건 파일 — git에 올라가지 않음 (개인정보)
 ```
 
 ## 사용법 (Claude Code)
 1. 이 폴더에서 `claude` 실행
-2. 사건 처리: `/f4 미국 시민권자 64세 남성, 무비자 입국 ...`
-3. 지식 검증: 매뉴얼 PDF를 `knowledge/원문/` 에 넣고 `/verify F4-EXEMPT-01`
+2. 손님 상담: `/consult` 입력 후 손님 역할로 대화 (끝나면 접수표 정리)
+3. 사건 처리: `/f4 미국 시민권자 64세 남성, 무비자 입국 ...`
+4. 지식 검증: 매뉴얼 PDF를 `knowledge/원문/` 에 넣고 `/verify F4-EXEMPT-01`
 
 Claude 웹 "프로젝트"에서 쓰려면 `CLAUDE.md` 내용을 프로젝트 지침에, `knowledge/` 파일들을 프로젝트 지식에 올리면 됩니다.
 
